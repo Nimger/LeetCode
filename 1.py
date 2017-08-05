@@ -6,9 +6,7 @@ def twoSum(nums,target):
         otherNum = target-num
         if otherNum in nums[index+1:]:
             otherIndex = nums[index+1:].index(otherNum)
-            if otherIndex+index+1 > index:
-                result = [index,otherIndex+index+1]
-                return result
+            return [index,otherIndex+index+1]
     return result
 
 
