@@ -1,5 +1,7 @@
 # -*- coding:utf-8 -*-
 
+# https://leetcode.com/problems/majority-element/description/
+
 class Solution(object):
 	def majorityElement(self, nums):
 		"""
