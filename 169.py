@@ -2,6 +2,7 @@
 
 # https://leetcode.com/problems/majority-element/description/
 
+# 出现不同的元素,则两两抵消,相当于从数组移除,剩下的那一个一定就是要找的那个元素
 class Solution(object):
 	def majorityElement(self, nums):
 		"""
